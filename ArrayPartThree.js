@@ -1,23 +1,32 @@
 function leastToGreatest (arr) {
-    
-  }
+        return arr.map(function(num){
+          return num.leastToGreatest;
+  }};
+}
   
   console.log(leastToGreatest([1, 3, 5, 2, 90, 20])); // [1, 2, 3, 5, 20, 90]
 
   function greatestToLeast(arr) {
-    
-  }
+         return arr.map(function(num){
+           return num.greatestToLeast;
+  }};
+}
   
   console.log(greatestToLeast([1, 3, 5, 2, 90, 20])); // [90, 20, 5, 3, 2, 1]
 
+
   function lengthSort(arr) {
-    
+        return arr.map(function(object){
+          return num.lengthSort;
+        }};
   }
   
   console.log(lengthSort(["dog", "wolf", "by", "family", "eaten"])); // ["by", "dog", "wolf", "eaten", "family"]
 
   function alphabetical(arr) {
-
+         return arr.map(function(object){
+           return num.object();
+         }};
 }
 
 console.log(alphabetical(["dog", "wolf", "by", "family", "eaten"])); // ["by", "dog", "eaten", "family", "wolf"]
